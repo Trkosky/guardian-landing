@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" fill="none">
+  <path d="M60 8 L108 26 L108 66 C108 100 86 122 60 132 C34 122 12 100 12 66 L12 26 Z"
+        stroke="#F58220" stroke-width="7" stroke-linejoin="round" fill="#1D1D1D"/>
+  <text x="60" y="99" text-anchor="middle" font-family="Montserrat, Arial, sans-serif"
+        font-weight="800" font-size="74" fill="#F58220">G</text>
+  <rect x="38" y="86" width="52" height="9" rx="4" transform="rotate(-28 64 90)" fill="#1D1D1D"/>
+</svg>
