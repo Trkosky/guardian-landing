@@ -334,14 +334,14 @@ ul { list-style: none; margin: 0; padding: 0; }
 .solution-card {
   background: var(--dark);
   border-radius: var(--radius);
-  padding: 30px 18px;
+  padding: 26px 18px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
-  text-align: center;
-  aspect-ratio: 1 / 0.92;
   justify-content: center;
+  gap: 12px;
+  text-align: center;
+  min-height: 150px;
   transition: transform 0.2s, background 0.2s;
 }
 .solution-card:hover { transform: translateY(-4px); background: var(--dark-soft); }
