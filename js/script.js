@@ -15,18 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Mobile dropdown toggle (tap to expand submenu instead of hover)
-  const dropdown = document.querySelector('.nav-dropdown');
-  if (dropdown) {
-    const dropdownLink = dropdown.querySelector(':scope > a');
-    dropdownLink.addEventListener('click', (e) => {
-      if (window.innerWidth <= 860) {
-        e.preventDefault();
-        dropdown.classList.toggle('open');
-      }
-    });
-  }
-
   // Back to top button
   const backToTop = document.getElementById('backToTop');
   window.addEventListener('scroll', () => {
